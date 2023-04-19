@@ -1,0 +1,108 @@
+.w-450 {
+	width: 450px;
+}
+.vh-100 {
+	min-height: 100vh;
+}
+
+html {
+	height: 100%;
+  }
+#pass1 {
+	background-image: url('img/lock-solid.svg');
+
+}
+
+#usern {
+	background-image: url('img/user-solid.svg');
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('background.jpg');
+	background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+#textcolor {
+	color: #ffffff
+}
+  #body {
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.box {
+	background-color: rgba(255, 255, 255, 0);
+	border: 1px solid #a5a0ec;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.5), inset 0 0 40px rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	transform-style: preserve-3d;
+	transform: perspective(1000px) rotateY(-30deg);
+	border-radius: 20px;
+	transition: transform 0.3s ease-out;
+	position: relative;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 0px;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+	position: relative;
+	padding-left: 40px;
+}
+
+label::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	height: 20px;
+	width: 20px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+input[type="text"], input[type="password"] {
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 20px;
+	border: 1px solid #af998c;
+	font-size: 18px;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+h4 {
+	text-shadow: 2px 3px 2px #4CAF50;
+}
